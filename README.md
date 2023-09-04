@@ -105,8 +105,19 @@ when u run the teleop file, you will have to make changes in it based on the nam
 9) some resources: 
 https://www.theconstructsim.com/read-laserscan-data/
 https://roboticsbackend.com/ros-param-yaml-format/
+https://www.theconstructsim.com/gazebo-in-5-minutes-010-how-to-launch-rviz-using-a-configuration-file/
+https://www.theconstructsim.com/ros-qa-122-how-to-show-laser-data-on-rviz/
 
-10) 
+
+10) using add option add those as shown in the image
+11) in Global Options, Fixed Frame : odom
+12) in PointCloud2, Topic: /rslidar_points, Size: 0.05
+13) in LaserScan, Topic: /scan, Size: 0.05
+14) ![Screenshot from 2023-09-04 22-50-35](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/0b254c48-7c9d-4ab3-92a8-f33afa8ded6f)
+
+15) ![Screenshot from 2023-09-04 22-51-28](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/f307801b-a9b6-4660-a0da-efb86dc587ad)
+
+
 
 
 
