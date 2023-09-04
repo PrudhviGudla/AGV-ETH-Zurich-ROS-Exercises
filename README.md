@@ -117,6 +117,8 @@ https://www.theconstructsim.com/ros-qa-122-how-to-show-laser-data-on-rviz/
 
 15) ![Screenshot from 2023-09-04 22-51-28](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/f307801b-a9b6-4660-a0da-efb86dc587ad)
 
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/764addad-bb72-4315-9c2a-119fc908256b)
+
 
 
 
