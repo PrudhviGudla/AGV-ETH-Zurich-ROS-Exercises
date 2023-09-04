@@ -102,7 +102,11 @@ when u run the teleop file, you will have to make changes in it based on the nam
 
 ![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/9a848627-35f3-4040-a88f-471c906809a3)
 
-9) 
+9) some resources: 
+https://www.theconstructsim.com/read-laserscan-data/
+https://roboticsbackend.com/ros-param-yaml-format/
+
+10) 
 
 
 
