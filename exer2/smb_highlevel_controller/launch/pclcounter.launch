@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="smb_highlevel_controller" type="pclcounter.py" name="pclcounter" output="screen">
+    </node>
+</launch>

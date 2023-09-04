@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="smb_highlevel_controller" type="scansub.py" name="scan_values" output="screen">
+     <rosparam command="load" file="$(find smb_highlevel_controller)/config/config.yaml" />   
+    </node>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smb_highlevel_controller)/rviz/default.rviz" />
+</launch>
