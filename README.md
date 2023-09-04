@@ -76,6 +76,33 @@ when u run the teleop file, you will have to make changes in it based on the nam
 13) I used rqt graph to generate this
 ![Screenshot (615)](https://user-images.githubusercontent.com/106007058/185801450-50475eca-ca65-4a8c-8848-14de24caca85.png)
 
+## Exercise 2
+
+1) download the zip file and move the package into the same workspace. Make scipts, config, launch folders in the smb_highlevel_controller package
+2) check the topic info /scan, based on that write a node to subscribe to scan topic, its sensor_msgs/LaserScan, so import it accordingly
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/c8e465fb-c1c0-4f01-902e-f27cff9535ca)
+
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/9fc44349-9d48-40b0-aeac-1fed582cda7c)
+
+
+4) create a launch file to launch the above subscriber node
+5) then make a config.yaml file with the topic name and queue size in config folder
+
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/699f8da2-dcf5-4ba0-bd98-b8751cb20709)
+
+6) load the parameter server using the launch file
+
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/a2024192-398e-4c01-9c05-ef6f4205b41a)
+
+7) access the params using rospy.get_param()
+
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/69f63ff6-d123-4c7a-aa0f-224528128e1a)
+
+8) check the msg type of laserscan and access the ranges and find min value accordingly
+
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/9a848627-35f3-4040-a88f-471c906809a3)
+
+9) 
 
 
 
