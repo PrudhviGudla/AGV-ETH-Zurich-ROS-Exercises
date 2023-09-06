@@ -3,4 +3,9 @@
      <rosparam command="load" file="$(find smb_highlevel_controller)/config/config.yaml" />   
     </node>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smb_highlevel_controller)/rviz/default.rviz" />
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch" pass_all_args="true">
+      <!--<arg name="world" value="planner_tutorial"/> -->
+      <arg name="world_file" value="$(find smb_gazebo)/worlds/planner_tutorial.world"/>
+      <arg name="laser_enabled" value="true" />
+    </include>
 </launch>
