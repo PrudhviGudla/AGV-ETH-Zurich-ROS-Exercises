@@ -121,15 +121,29 @@ Gazebo
 
 ![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/18811518-9f1a-44a0-8fc3-12a6cbc93e6e)
 
+14) You can launch a launch file from another launch file and pass arguments to it using the below code.(useful for big projects)
+![image](https://github.com/PrudhviGudla/AGV-ETH-Zurich-ROS-Exercises/assets/106007058/6dc12eb3-0249-4c14-8d72-1acc77c99c42)
+
+
 ### Some resources:
- 
+
+reading laserscan data
 https://www.theconstructsim.com/read-laserscan-data/
 
+yaml fromat for rosparam
 https://roboticsbackend.com/ros-param-yaml-format/
 
+saving a rviz configurationa and launching it through launch file
 https://www.theconstructsim.com/gazebo-in-5-minutes-010-how-to-launch-rviz-using-a-configuration-file/
 
+showing laser data on rviz
 https://www.theconstructsim.com/ros-qa-122-how-to-show-laser-data-on-rviz/
+
+launching a launch file from a launch file
+https://www.theconstructsim.com/ros-5-mins-017-include-launch-file-inside-launch-file/
+https://answers.ros.org/question/199152/run-launch-file-with-arg-from-launch-file/
+https://wiki.ros.org/roslaunch/XML/include
+
 
 
 
